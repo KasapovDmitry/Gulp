@@ -1,0 +1,29 @@
+@import "base";
+@import "fonts";
+
+body {
+    background-color: black;
+    background: url('@img/') 0 0 no-repeat;
+    span{
+        color: red;
+    }
+
+   
+
+}
+html {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768) {
+    span {
+      font-size: 24px;
+    }
+    
+}
+@media (max-width: 768) {
+    b {
+      color: blue;
+    }
+    
+}
